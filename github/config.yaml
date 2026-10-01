@@ -1,0 +1,11 @@
+version: 1
+source: github
+pullRequests:
+  repositories:
+    - TomMkV/agent-echo
+    - TomMkV/ctxpipe-context1241214
+    - TomMkV/stillwood
+  states:
+    - merged
+  includeDrafts: false
+  maxPullRequestsPerRepository: 200
